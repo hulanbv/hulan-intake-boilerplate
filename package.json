@@ -1,0 +1,36 @@
+{
+  "name": "hulan-intake-webapp",
+  "version": "1.0.0",
+  "description": "Hulan front-end case",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --mode development --open --hot",
+    "build": "node_modules/.bin/webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HulanBV/hulan-intake-webapp.git"
+  },
+  "author": "Stef van Wijchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HulanBV/hulan-intake-webapp/issues"
+  },
+  "homepage": "https://github.com/HulanBV/hulan-intake-webapp#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
