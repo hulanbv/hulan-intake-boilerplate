@@ -20,13 +20,8 @@ export class App extends React.Component {
         <p>
           Voel je vrij om met dit project te doen wat jij denkt dat nodig is om
           aan de opdracht te voldoen! Je bent absoluut niet beperkt tot de 'src'
-          directory. ;) <br />
-          De enige restricties vanuit Hulan zijn:
+          directory. ;)
         </p>
-        <ul>
-          <li>Typescript source code</li>
-          <li>React</li>
-        </ul>
         <p>Niets moet, alles mag. Veel succes gewenst!</p>
       </div>
     );
